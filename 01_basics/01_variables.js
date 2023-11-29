@@ -1,3 +1,5 @@
+ // "use strict"; // treat all js code as newer version
+
 const accountId =  2345643
 let accountEmail = "Ak@google.com"
 var accountPassword = "123456"
@@ -12,5 +14,6 @@ accountEmail = "Ak@ak.com"
 accountPassword = "31313131"
 accountCity = "Dharamshala"
 
- console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
+console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
+
 
