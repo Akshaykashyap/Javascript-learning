@@ -51,8 +51,8 @@
 
    console.table([youTubeName,anotherName]);
 
-   // Heap Memory
-   
+   // Heap Memory  
+
    let userOne = {
      email: "akshay@google.com",
      age: 28
