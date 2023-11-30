@@ -37,3 +37,28 @@
    let myFun = function() {
     console.log("Hello world");
    }
+
+
+   //==================================== Memory Storage ==========================
+
+   // stack (Primitive), Heap (Non-Primitive)
+
+   let youTubeName = "Akshay@Javascript";
+
+   let anotherName = youTubeName;
+
+   anotherName = "Chaiaurcode";
+
+   console.table([youTubeName,anotherName]);
+
+   // Heap Memory
+   
+   let userOne = {
+     email: "akshay@google.com",
+     age: 28
+   }
+   let userTwo = userOne;
+
+   userTwo.email = "Akshay95kashyap@google.com"
+
+   console.table([userOne,userTwo]);
