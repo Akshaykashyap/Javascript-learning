@@ -18,8 +18,8 @@ console.log(myTimeStamp);
 console.log(myCreateDate.getTime());
 console.log(myCreateDate.getDay());
 
-let newValu = myDate.toLocaleTimeString('default', {
+let newValue = myDate.toLocaleTimeString('default', {
     weekday: "long",
     day: "2-digit",
 })
-console.log(newValu);
+console.log(newValue);
